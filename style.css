@@ -1,71 +1,87 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 body {
-  font-family: "Rubik", sans-serif;
-  background-color: #fdf2e9;
+    font-family: "Rubik", sans-serif;
+    background-color: #fdf2e9;
 }
-.container {
-  max-width: 124rem;
-  margin: 0 auto;
+/* .container {
+    max-width: 124rem;
+    margin: 0 auto;
+} */
+.nav {
+    grid-column: 1/-1;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 4rem 5rem;
+    color: #fff;
 }
-.nav{
-  grid-column: 1/-1;
-  display: flex;
-  justify-content: space-between;
-  padding: 32px;
+.header {
+    display: flex;
+    padding: 0 4.8rem;
+    justify-content: space-between;
+    height: 9.6rem;
+    align-items: center;
 }
 .logo-box{
-  width: 200px;
+  width: 16.5rem;
 }
-.navigation{
-  display: flex;
-  gap:6rem;
-  list-style: none;
-  align-items: center;
-  
+.logo-img {
+  width: 100%;
+}
+.navigation {
+    display: flex;
+    gap: 4.8rem;
+    list-style: none;
+    align-items: center;
+}
+.navigation-list {
+    /* padding-right: 6rem; */
 }
 
-a{
-  text-decoration: none;
-  color: #000;
-  font-size: 1.8rem;
-  font-weight: 500;
+.navigation-link {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 500;
 }
-a:hover{
-  color: #f36464;
+.nav-cta{padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22}
+a:hover {
+    color: #e67e22;
 }
 .heading-primary {
-  font-size: 5rem;
-  line-height: 1.05;
-  letter-spacing: -1px;
-  margin-bottom: 20px;
+    font-size: 5rem;
+    line-height: 1.05;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
 }
-.logo-img{
-  width: 100%;
+.logo-img {
+    width: 100%;
 }
 .hero-text-box {
-
 }
 .hero-img-box {
-
 }
 .hero-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8rem;
-  height: 100vh;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8rem;
+    height: 100vh;
+    align-items: center;
 }
 .hero-img {
-  width: 100%;
+    width: 100%;
 }
-.hero-description{
-  font-size: 20px;
-  line-height: 1.5;
+.hero-description {
+    font-size: 20px;
+    line-height: 1.5;
 }
