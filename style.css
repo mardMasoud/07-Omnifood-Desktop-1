@@ -79,7 +79,7 @@ body {
 }
 .section-hero {
   /* background-color: brown; */
-  padding: 9.6rem 5.2rem;
+  padding:4.8rem 0 9.6rem 0;
   background-color: #fdf2e9;
 }
 .hero {
@@ -90,6 +90,7 @@ body {
   gap: 9.6rem;
   /* height: 100vh; */
   align-items: center;
+  padding: 0 3.2rem;
   /* background-color: blueviolet; */
   /* justify-items: center; */
   
@@ -178,3 +179,41 @@ margin-right: 0;
   font-weight: 700;
 
 }
+.grid{
+  display: grid;
+  gap: 9.6rem;
+}
+.container{
+  max-width: 120rem;
+  margin:0 auto;
+  padding: 0 3.2rem;
+}
+.grid--2-cols{
+  grid-template-columns: 1fr 1fr;
+}
+.grid--3-cols{
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.grid--4-cols{
+  grid-template-columns: repeat(4,1fr) ;
+}
+.section-how{  padding:4.8rem 0 9.6rem 0;}
+.featured-title{
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #9e9e9e;
+}
+.featured-imgs{
+  display: flex;
+  gap:10px;
+}
+.featured-imgs div{
+  width: 900px;
+  height: 100px;
+  background-image: url(./content/img/logos/business-insider.png), linear-gradient(#eb01a5, #d13531); ;
+}
+
+ 
