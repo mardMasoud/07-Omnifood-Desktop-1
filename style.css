@@ -35,7 +35,7 @@ body {
 
 .navigation-list {
   display: flex;
-  gap: 3.2rem;
+  gap: 4.8rem;
   list-style: none;
   align-items: center;
 }
@@ -53,10 +53,11 @@ body {
 }
 .nav-cta:link,.nav-cta:visited{
   transition: all .3s;
-  color: #fff;padding: 1.2rem 2.4rem;
+  color: #fff;padding: 1rem 2.4rem;
   border-radius: 9px;
   color: #fff;
   background-color: #e67e22;
+  display: inline-block;
 }
 .nav-cta:hover,.nav-cta:active{
  background-color: #cf711f;
@@ -112,7 +113,7 @@ body {
 
   border-radius: 9px;
   display: inline-block;
-  padding: 1.6rem 3.2rem;
+  padding: 1.4rem 3.4rem;
   font-weight: 500;
 }
 .btn--full:link,
@@ -208,12 +209,103 @@ margin-right: 0;
 }
 .featured-imgs{
   display: flex;
-  gap:10px;
+  /* gap:2rem; */
+  margin-top: 3.2rem;
+ /* gap: 1rem; */
+ /* background-color: #555; */
+  justify-content: space-between;
+  padding: 0 3.2rem;
 }
 .featured-imgs div{
-  width: 900px;
-  height: 100px;
-  background-image: url(./content/img/logos/business-insider.png), linear-gradient(#eb01a5, #d13531); ;
+  /* height: 2.8rem; */
+  /* width:100px; */
+  /* flex-basis: 24rem; */
+  /* background-position: center; */
+  /* background-clip: content-box; */
+  background-size: cover;
+  background-repeat: no-repeat;
+background-color: #9e9e9e;
+  /* background-image: url(./content/img/logos/techcrunch.png); */
+ 
+
+}
+.featured-imgs div img{
+  height: 3.2rem;
+  filter: grayscale(100%) ;
+ 
+}
+.title-2{
+  margin-top: 9.6rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #cf711f;
+}
+.heading-scondray{
+  margin-top: 2rem;
+  font-size: 4.3rem;
+  /* letter-spacing: 1.01; */
+  margin-bottom: 9.6rem;
+  font-weight: 700;
+
+}
+.info-number{
+  font-size: 9rem;
+  font-weight: 600;
+  color: #d1d1d1;
+}
+.heading-tratiory{
+  font-size: 2.8rem ;
+  margin-bottom: 3.6rem;
+}
+.info{
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+ 
+.img-info-box img{
+  width: 20rem;
+}
+/* .center{
+  align-items: center;
+  justify-items: center;
+} */
+ .info-box{
+  border-color: blueviolet;
+ }
+.img-info-box {
+/* background-color: aqua;  */
+text-align: center;
+position: relative;
 }
 
- 
+.img-info-box::before{
+  content: "";
+  display: block;
+  width: 32rem;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background-color: #feefe2;
+  /* height: 18rem; */
+  height: 32rem;
+  position: absolute;
+  border-radius: 50%;
+  z-index: -2;
+
+}
+.img-info-box:after{
+  content: "";
+  display: block;
+  width: 25rem;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background-color: #f9dfc7;
+  /* height: 18rem; */
+  height: 25rem;
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+
+}
