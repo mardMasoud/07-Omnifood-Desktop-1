@@ -13,6 +13,9 @@
   display: grid;
   row-gap: 9.6rem;
   column-gap: 6.4rem;
+ 
+}
+.grid--align-v{
   align-items: center;
 }
 .gap-h{column-gap: 3.2rem}
