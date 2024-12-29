@@ -165,7 +165,7 @@ body {
 .featured-imgs  img {
     height: 3.2rem;
     opacity: 50%;
-    filter:brightness(0)
+    filter:  brightness(0) ;
 }
 
 
@@ -233,3 +233,26 @@ body {
     z-index: -1;
     padding-bottom: 50%;
 }
+
+.section-meals{
+    padding: 9.6rem 0;
+}
+.meal-img{width: 100%;}
+.meal-tag{
+    background-color: #cf711f;
+    /* border-radius: 2px; */
+    padding: 0.5rem;
+    display: inline-block;
+}
+.meal-title{margin-bottom: 3.2rem;
+font-size: 2.4rem;
+font-weight: 600;}
+.meal-attrs{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    padding:0 1.2rem;
+  
+}
+.meal-attr{  font-size: 1.8rem;}
