@@ -313,3 +313,30 @@ body {
     border-color: transparent;
     /* border: none; */
 }
+
+.section-testimonials{  background-color: #fdf2e9;;
+    padding: 4.8rem 0 9.6rem 0;}
+
+.img-customer-testimonial{
+    height: 6rem;
+    border-radius: 50%;
+    margin-bottom: 2.4rem;
+}
+.info-customer-testimonial{
+    font-size: 1.8rem;
+    /* font-weight: 300; */
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 2.4rem;
+}
+.name-customer{
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #777;
+}
+.customers{
+   
+}
+.testimonials-content{
+    padding: 9.6rem;
+}

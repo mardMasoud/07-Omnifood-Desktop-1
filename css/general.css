@@ -18,6 +18,9 @@
 .grid--align-v{
   align-items: center;
 }
+.gap-v{
+  row-gap: 3.2rem !important;
+}
 .gap-h{column-gap: 3.2rem}
 .container {
   max-width: 120rem;
@@ -104,3 +107,4 @@
 .text-center{
   text-align: center;
 }
+
