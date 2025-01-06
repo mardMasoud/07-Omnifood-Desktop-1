@@ -19,6 +19,12 @@
   align-items: center;
 }
 .gap-v{
+  row-gap: 4.8rem !important;
+}
+.gap-h-small{
+  column-gap: 3.2rem
+}
+.gap-v-small{
   row-gap: 3.2rem !important;
 }
 .gap-h{column-gap: 3.2rem}
