@@ -364,6 +364,7 @@ body {
 }
 .box-cards {
     padding: 0 14.8rem;
+    margin-bottom: 4.8rem;
 }
 
 .card {
@@ -421,19 +422,53 @@ body {
     overflow: hidden;
 }
 .card-complate::before{
-    content: "bestvalue";
+    content: "best value";
     position: absolute;
-    right:-5%;
-    top:15%;
+    right:-10%;
+    top:5%;
     font-size: 1.2rem;
     background-color:#f6ca07 ;
     text-transform: uppercase;
     font-weight: 700;
-    padding: 1rem 1rem;
+    padding: 1rem 5rem;
     transform: rotate(45deg);
     display: block;
     /* width: 30%; */
     /* display: table; */
-    width: 50%;
-    transform-origin: bottom right;
+    /* width: 50%; */
+    /* transform-origin: bottom right; */
 }
+.title-more{
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 9.6rem;
+}
+
+.icon-more{
+    color: #e67e22;
+    font-size: 3.2rem;
+    font-weight: 700;
+  
+  }
+  .box-icon{
+    display: inline-block;
+    padding: 1.4rem;
+    background-color: #fdf2e9;
+    border-radius: 50%;
+    margin-bottom: 3.2rem;
+  }
+
+  .subtitle-more{
+    font-size: 2.6rem;
+    margin-bottom: 1.8rem;
+    /* line-height: 1.2; */
+    font-weight: 700;
+    color: #333;
+  }
+  .info-more{
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  

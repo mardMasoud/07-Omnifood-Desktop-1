@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Card</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: #fff8f0;
+      border-radius: 16px;
+      width: 320px;
+      padding: 24px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .ribbon {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background-color: #ffc107;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 5px 40px;
+      transform: rotate(45deg);
+      transform-origin: top right;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .plan {
+      color: #ff7a00;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .price {
+      font-size: 3.6rem;
+      font-weight: bold;
+      color: #333;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .price::after {
+      content: "/month";
+      font-size: 1rem;
+      font-weight: normal;
+      color: #666;
+      margin-left: 8px;
+    }
+
+    .monthly {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .features {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 24px;
+    }
+
+    .features li {
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .features li span {
+      color: #ff7a00;
+      font-weight: bold;
+      margin-right: 8px;
+      font-size: 1.2rem;
+    }
+
+    .cta-button {
+      background-color: #ff7a00;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #e06d00;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="ribbon">Best Value</div>
+    <h2 class="plan">COMPLETE</h2>
+    <h1 class="price">$649</h1>
+    <p class="monthly">That's just $11 per meal!</p>
+    <ul class="features">
+      <li><span>✔</span> 2 meals per day</li>
+      <li><span>✔</span> Order 24/7</li>
+      <li><span>✔</span> Delivery is free</li>
+      <li><span>✔</span> Get access to latest recipes</li>
+    </ul>
+    <button class="cta-button">Start eating well</button>
+  </div>
+</body>
+</html>
