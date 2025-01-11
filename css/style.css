@@ -470,6 +470,7 @@ body {
 }
 
 .section-call-to-action {
+    padding: 9.6rem 0;
 }
 
 .call-to-action {
@@ -498,10 +499,13 @@ body {
     column-gap: 3.2rem;
 }
 .img-box-call {
+    background-image: url('../content/img/eating.jpg');
+background-position: center;
+background-size: cover;
 }
 .img-call {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
 }
 .box-full-name {
     display: flex;
