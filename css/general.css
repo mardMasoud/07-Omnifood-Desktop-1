@@ -44,7 +44,7 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
-.btn:link,
+.btn,.btn:link,
 .btn:visited {
     text-decoration: none;
 
