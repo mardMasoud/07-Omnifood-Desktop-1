@@ -523,6 +523,7 @@ border-radius: 11px;
 border: none;
 display: inline-block; background-color: #f2eae2;
 outline: none;
+font-family: inherit;
 }
 .form-textbox::placeholder{
     font-size: 1.8rem;
